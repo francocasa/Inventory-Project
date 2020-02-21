@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+
+    <script type="text/javascript">
+        function verify()
+        {
+            var user = document.getElementById("usuariologin").value;
+            var password = document.getElementById("passlogin").value;
+
+            if(user == "luis" && password == "12345")
+            {
+                alert ("Usuario Correcto");
+            }
+            else
+            {
+                alert("Usuario o contraseña incorrecto");
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <center>
+        <table>
+            <tr>
+                <td><label>Usuario</label></td><td><input type="text" placeholder=“usuario” name="txtuserlogin" id="usuariologin"></td> 
+            </tr>
+            <br>
+            <tr>
+                <td><label>Password</label></td><td><input type="password" placeholder="password" name="txtpasswordlogin" id="passlogin"></td>
+            </tr>
+            <br>
+            <tr>
+                <td colspan="2"><input type="button" name="btnVerify" id="btnVerify" onclick="verify()" value="Verificar"></td>
+            </tr>
+            <br>
+        </table>
+    </center>
+    
+    <!--            <button class='buttonSign'>Sign</button>                -->
+</body>
+</html>
+

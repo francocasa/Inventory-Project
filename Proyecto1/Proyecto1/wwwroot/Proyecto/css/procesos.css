@@ -1,0 +1,55 @@
+#caracteristicas
+{
+    display: none;
+}
+
+#btnBuscar
+{
+    display: none;
+}
+
+#btnAnadir
+{
+    display: none;
+}
+
+#btnModPro
+{
+    display: none;
+}
+
+#btnAnadirMasivo
+{
+    display: none;
+}
+
+#tipoProductos
+{
+    display: none;
+}
+
+#liIdentificador
+{
+    display: none;
+}
+
+button
+{
+    background: #1883ba;
+    border-color: #1883ba;
+    color: white;
+}
+
+.btnSeleccionado
+{
+    background: green;
+    border-color: green;
+}
+
+
+
+
+
+
+
+

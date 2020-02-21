@@ -1,0 +1,2 @@
+﻿--> Esto sirve para cargar los modelos desde las tablas de las bases de datos
+Scaffold-DbContext 'data source=ACA VA EL SERVIDOR;initial catalog=ACA VA LA BASE DE DATOS;persist security info=True;user id=ACA VA EL USUARIO;password=ACA VA LA CONTRASENA;' Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force

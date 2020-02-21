@@ -1,0 +1,26 @@
+<mvc:View
+controllerName="MyApp.App"
+xmlns:mvc="sap.ui.core.mvc"
+xmlns:m="sap.m"
+xmlns:core="sap.ui.core"
+displayBlock="true"
+height="100%" >
+  <m:Table id="usersTable" inset="false" headerText="Users">
+    <m:headerToolbar>
+      <m:OverflowToolbar>
+        <m:content>
+          <m:ToolbarSpacer/>
+          <m:SearchField id="searchField" search="onSearch" placeholder="User Name" width="200px" showRefreshButton="false"/>
+        </m:content>
+      </m:OverflowToolbar>
+    </m:headerToolbar>
+    <m:columns>
+      <m:Column 	width="12em">
+        <m:Text text="User Id"/>
+      </m:Column>
+      <m:Column 	width="12em">
+        <m:Text text="User Name"/>
+      </m:Column>
+    </m:columns>
+  </m:Table>
+</mvc:View>

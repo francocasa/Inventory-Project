@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Last-Modified" content="0">
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/procesos.css">
+</head>
+
+<body>
+    <center>
+        <div>
+            <section>
+                <il id="procesos"></il>
+            </section>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <!-- <ul><button id="btnBuscar">Buscar</button></ul> -->
+
+            <select id="tipoProductos" onchange="onChangeSelector()"></select>
+
+        <li id="caracteristicas"></li>
+        <li id=liIdentificador>Identificador<input type="text" value=""></li>
+        <ul><button id="btnBuscar">Buscar</button></ul>
+        <ul><button id="btnAnadir">Añadir</button></ul>
+        <ul><button id="btnModPro">Modificar producto seleccionado</button></ul>
+        <ul><button id="btnAnadirMasivo">Seleccionar archivo</button></ul>
+
+    </center>
+    
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="javascript/procesos.js"></script>
+</body>
+
+</html>
